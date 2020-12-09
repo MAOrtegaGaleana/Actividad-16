@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>423</width>
+    <height>524</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Agregar</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>401</width>
+          <height>441</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Particula:</string>
+        </property>
+        <widget class="QLabel" name="label_7">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>179</y>
+           <width>53</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Colo(rgb):</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="velocidad_lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>153</y>
+           <width>133</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>127</y>
+           <width>64</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Destino en y:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="blue_lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>250</y>
+           <width>133</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>49</y>
+           <width>60</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Origen en x:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_8">
+         <property name="geometry">
+          <rect>
+           <x>41</x>
+           <y>198</y>
+           <width>23</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Red:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>153</y>
+           <width>49</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Velocidad:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="origeny_lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>75</y>
+           <width>133</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_10">
+         <property name="geometry">
+          <rect>
+           <x>41</x>
+           <y>250</y>
+           <width>24</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Blue:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>101</y>
+           <width>64</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Destino en x:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="destinox_lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>101</y>
+           <width>133</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="origenx_lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>49</y>
+           <width>133</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="id_lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>41</x>
+           <y>23</y>
+           <width>133</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>75</y>
+           <width>60</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Origen en y:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>23</y>
+           <width>16</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>ID:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="destinoy_lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>127</y>
+           <width>133</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="green_lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>224</y>
+           <width>133</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="red_lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>198</y>
+           <width>133</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_9">
+         <property name="geometry">
+          <rect>
+           <x>41</x>
+           <y>224</y>
+           <width>33</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Green:</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="agregar_final_pushButton">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>280</y>
+           <width>101</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Agregar al final</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="agregar_inicio_pushButton">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>300</y>
+           <width>101</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Agregar al inicio </string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="mostrar_pushButton">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>320</y>
+           <width>81</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Mostrar</string>
+         </property>
+        </widget>
+        <widget class="QPlainTextEdit" name="salida">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>10</y>
+           <width>171</width>
+           <height>411</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="ordenar_id_pushButton">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>370</y>
+           <width>121</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>ID</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="ordenar_distancia_pushButton">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>390</y>
+           <width>121</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Distancia</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="ordenar_velocidad_pushButton">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>410</y>
+           <width>121</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Velocidad</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_11">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>350</y>
+           <width>71</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Ordenar por:</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Tabla</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0" colspan="3">
+         <widget class="QTableWidget" name="tabla"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLineEdit" name="buscar_lineEdit">
+          <property name="placeholderText">
+           <string>ID de particula</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="buscar_pushButton">
+          <property name="text">
+           <string>Buscar</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QPushButton" name="mostrar_tabla_pushButton">
+          <property name="text">
+           <string>Mostrar</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Gráfico</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0" colspan="2">
+         <widget class="QGraphicsView" name="graphicsView"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QPushButton" name="dibujar_pushButton">
+          <property name="text">
+           <string>Dibujar</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="limpiar_pushButton">
+          <property name="text">
+           <string>Limpiar</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>423</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionAbrir"/>
+    <addaction name="actionGuardar"/>
+   </widget>
+   <widget class="QMenu" name="menuVer">
+    <property name="title">
+     <string>Ver</string>
+    </property>
+    <addaction name="actionGrafo"/>
+    <addaction name="action_busqueda"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuVer"/>
+  </widget>
+  <action name="actionAbrir">
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionGuardar">
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionGrafo">
+   <property name="text">
+    <string>Grafo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+  <action name="action_busqueda">
+   <property name="text">
+    <string>Recorrido</string>
+   </property>
+  </action>
+  <action name="action_amplitud">
+   <property name="text">
+    <string>Recorrido en amplitud</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

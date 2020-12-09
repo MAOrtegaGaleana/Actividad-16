@@ -1,0 +1,112 @@
+[
+    {
+         "identificacion": 1,
+         "origenx": 0,
+         "origeny": 100,
+         "destinox": 100,
+         "destinoy": 100,
+         "velocidad": 90.0,
+         "red": 200,
+         "blue": 100,
+         "green": 200
+    },
+    {
+         "identificacion": 2,
+         "origenx": 0,
+         "origeny": 100,
+         "destinox": 200,
+         "destinoy": 150,
+         "velocidad": 90.0,
+         "red": 200,
+         "blue": 100,
+         "green": 60
+    },
+    {
+         "identificacion": 3,
+         "origenx": 100,
+         "origeny": 100,
+         "destinox": 300,
+         "destinoy": 0,
+         "velocidad": 45.0,
+         "red": 50,
+         "blue": 100,
+         "green": 200
+    },
+    {
+         "identificacion": 4,
+         "origenx": 100,
+         "origeny": 100,
+         "destinox": 200,
+         "destinoy": 150,
+         "velocidad": 60.0,
+         "red": 10,
+         "blue": 0,
+         "green": 0
+    },
+    {
+         "identificacion": 5,
+         "origenx": 300,
+         "origeny": 0,
+         "destinox": 200,
+         "destinoy": 150,
+         "velocidad": 20.0,
+         "red": 200,
+         "blue": 100,
+         "green": 200
+    },
+    {
+         "identificacion": 6,
+         "origenx": 300,
+         "origeny": 0,
+         "destinox": 50,
+         "destinoy": 0,
+         "velocidad": 50.0,
+         "red": 200,
+         "blue": 100,
+         "green": 60
+    },
+    {
+         "identificacion": 7,
+         "origenx": 50,
+         "origeny": 0,
+         "destinox": 0,
+         "destinoy": 100,
+         "velocidad": 25.0,
+         "red": 10,
+         "blue": 0,
+         "green": 0
+    },
+    {
+         "identificacion": 8,
+         "origenx": 100,
+         "origeny": 100,
+         "destinox": 50,
+         "destinoy": 0,
+         "velocidad": 15.0,
+         "red": 120,
+         "blue": 20,
+         "green": 20
+    },
+    {
+         "identificacion": 9,
+         "origenx": 0,
+         "origeny": 100,
+         "destinox": 0,
+         "destinoy": 200,
+         "velocidad": 100.0,
+         "red": 0,
+         "blue": 20,
+         "green": 80
+    },
+    {
+         "identificacion": 10,
+         "origenx": 200,
+         "origeny": 150,
+         "destinox": 0,
+         "destinoy": 200,
+         "velocidad": 10.0,
+         "red": 50,
+         "blue": 100,
+         "green": 200
+    }
+]
